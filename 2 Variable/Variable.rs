@@ -4,7 +4,7 @@ fn main() {
     ////////////////////////////
     let mut age = 20; // si on mais pas "mut" la valeur ne peut pas être modifier
     age = 21; // changer la vriable
-    println("Age : {}", age); // afficher la variable + texte
+    println!("Age : {}", age); // afficher la variable + texte
 
     /////////////////////////////
     // Variable non modifiable //
@@ -36,8 +36,11 @@ fn main() {
 
     let chain = "42";
     let nombre: i32 = chain.parse().unwrap();
-    println!("Nombre : {]", nombre);
+    println!("Nombre : {}", nombre);
 
-    
+    let age = 20;
+    let age_texte = age.to_string();
+    println!("Âge en texte : {}", age_texte);
+
 }
 
