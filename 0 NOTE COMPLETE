@@ -1,6 +1,6 @@
 //Compiler et exécuter : cargo run
 //Compiler sans éxécuter : cargo build
-// Compiler sans cargo : restc "nomdufichier.rs"
+//Compiler sans cargo : restc "nomdufichier.rs"
 
 fn main() {} //fonction principal (obligatoire)
 
